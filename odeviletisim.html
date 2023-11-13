@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+<body>
+    <div>
+
+      <h3>
+      <nav style="background-color: rgb(209, 202, 202); padding-bottom: 3%; text-align: center;">
+
+        <a style=" color: black;" href="odev.html">Anasayfa</a>
+        <a style=" color: black;" href="odevhakkımızda.html">Hakkımızda</a>
+        <a style=" color: black;" href="odevblog.html">Blog</a>
+        <a style=" color: black;" href="odeviletişim.html">İletişim</a>
+      
+      </nav>
+    </h3>
+    </div>
+
+    <form action="sonuc.html" method="post" enctype="multipart/form-data">
+      <div style="padding-bottom: 2%;">
+           
+                <input type="text" required placeholder="Ad Soyad">
+
+                <label for="">Email</label>
+                <input type="email" required  placeholder="salh.szgn21@gmail.com">
+
+        </div>
+
+      <div style="padding-bottom: 2%;">
+        <label for="">Cinsiyet</label>
+        <input name="cinsiyet" type="radio">Kadın
+        <input name="cinsiyet" type="radio">Erkek
+      </div>
+
+      <div style="padding-bottom: 2%;">
+        <label for="">Ehliyetiniz Var Mı?</label>
+        <input name="ehliyet" type="radio">Evet
+        <input name="ehliyet" type="radio">Hayır
+      </div>
+
+      <div style="padding-bottom: 2%;">
+        <label for="">Hobileriniz</label>
+        <input type="checkbox">Spor
+        <input type="checkbox">Müzik
+        <input type="checkbox">Resim
+        <input type="checkbox">Yüzme
+        <input type="checkbox">Film izleme
+        <input type="checkbox">Kitap okuma
+      </div>
+
+      <div style="padding-bottom: 2%;">
+        <label for="">Şehir</label>
+      <select name="" id="">
+        <option value="">Ankara</option>
+        <option value="">İstanbul</option>
+        <option value="">İzmir</option>
+        <option value="">Bursa</option>
+      </select>
+        </div>
+
+<div style="padding-bottom: 2%;">
+    <label for="">CV</label>
+    <input type="file">
+</div>
+
+     <div style="padding-bottom: 2%;">
+      <input type="text" style="width: 100px; height: 100px;"  required placeholder="yorumlarınızı yazın">
+    </div>
+
+      <input type="submit" value="KAYDET">
+
+    </form>
+</body>
+</html>
